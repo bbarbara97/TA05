@@ -10,7 +10,8 @@ public class mainApp {
 		
 		System.out.print("Introduce el radio: ");
 		
-		double radio = sc.nextDouble();
+		String r = sc.nextLine();
+		int radio = Integer.parseInt(r);
 		sc.close();
 		
 		System.out.println("El area del circulo es de: "+(PI*(Math.pow(radio, 2))));
