@@ -8,6 +8,7 @@ public class mainApp {
 		
 		System.out.print("Introduce un día de la semana: ");
 		String dia = sc.nextLine();
+		sc.close();
 		
 		
 		switch(dia.toLowerCase()) {
